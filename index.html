@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Helper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h1 style="color: rgb(165, 42, 89);">Study Helper</h1>
+            <div class="nav-links" id="navlinks">
+               <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Content</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Ask queries</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="textbox">
+        
+        <p style="font-size:larger">Get the study material prefered by seniors of your college with  your choice.</p>
+        <a href="#" class="herobtn">Know how to use Study Helper completely.</a>
+    </div>
+</section>
+<section class="course">
+    <h1>Content</h1>
+    <p style="color: rgba(163, 175, 2, 0.788); font-size: large;">All the study material suggeted by the seniors is present here make full use of it.</p>
+    <div class="row">
+        <div class="coursecol">
+            <h3>FE</h3>
+            <a href="#">Computer Science</a>
+            <br> 
+            <br>
+            <a href="#">Electronics And Telecommunication</a>
+            <br>
+            <br>
+            <a href="#">Information Technology</a>
+            
+        </div>
+        <div class="coursecol">
+            <h3>SE</h3>
+            <a href="#">Computer Science</a>
+            <br> 
+            <br>
+            <a href="#">Electronics And Telecommunication</a>
+            <br>
+            <br>
+            <a href="#">Information Technology</a>
+        </div>
+        <div class="coursecol">
+            <h3>TE</h3>
+            <a href="#">Computer Science</a>
+            <br> 
+            <br>
+            <a href="#">Electronics And Telecommunication</a>
+            <br>
+            <br>
+            <a href="#">Information Technology</a>           
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
+</Section>
+
+
+
+                </h3>
+                
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+
+    <script>
+        var navlinks = document.getElementByid("navlinks");
+        function showMenu(){
+            navlinks.style.right="0";
+
+        }
+        function hideMenu(){
+            navlinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
